@@ -6,8 +6,13 @@
 <h2>login</h2>
 <h1>@Session["message"]</h1>
 
+    <div class="alert alert-danger alert-dismissible fade hide" id="AGNIK" role="alert" >
+        You should check in on some of those fields below.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
 <form class="form-signin">
-    <h1 class="h3 mb-3 fw-normal text-center">Please sign in</h1>
+    <h1 class="h3 mb-3 fw-normal text-center">Please sign</h1>
     <div class="form-floating mb-3">
         <input type="text" class="form-control" id="floatingInput" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
         <label for="floatingInput">Username</label>
